@@ -3,9 +3,9 @@ package dummy
 import (
 	"fmt"
 
-	"github.com/mosaicnetworks/babble/src/crypto"
-	"github.com/mosaicnetworks/babble/src/hashgraph"
-	"github.com/mosaicnetworks/babble/src/proxy"
+	"github.com/andrecronje/babble/src/crypto"
+	"github.com/andrecronje/babble/src/hashgraph"
+	"github.com/andrecronje/babble/src/proxy"
 	"github.com/sirupsen/logrus"
 )
 

@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
-	bkeys "github.com/mosaicnetworks/babble/src/crypto/keys"
-	"github.com/mosaicnetworks/babble/src/peers"
+	bkeys "github.com/andrecronje/babble/src/crypto/keys"
+	"github.com/andrecronje/babble/src/peers"
 )
 
 func TestInitStore(t *testing.T) {

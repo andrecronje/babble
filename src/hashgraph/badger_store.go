@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"github.com/dgraph-io/badger"
-	cm "github.com/mosaicnetworks/babble/src/common"
-	"github.com/mosaicnetworks/babble/src/peers"
+	cm "github.com/andrecronje/babble/src/common"
+	"github.com/andrecronje/babble/src/peers"
 )
 
 const (

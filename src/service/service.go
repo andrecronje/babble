@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/mosaicnetworks/babble/src/node"
-	"github.com/mosaicnetworks/babble/src/peers"
+	"github.com/andrecronje/babble/src/node"
+	"github.com/andrecronje/babble/src/peers"
 	"github.com/sirupsen/logrus"
 )
 

@@ -12,12 +12,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mosaicnetworks/babble/src/common"
-	bkeys "github.com/mosaicnetworks/babble/src/crypto/keys"
-	hg "github.com/mosaicnetworks/babble/src/hashgraph"
-	"github.com/mosaicnetworks/babble/src/net"
-	"github.com/mosaicnetworks/babble/src/peers"
-	dummy "github.com/mosaicnetworks/babble/src/proxy/dummy"
+	"github.com/andrecronje/babble/src/common"
+	bkeys "github.com/andrecronje/babble/src/crypto/keys"
+	hg "github.com/andrecronje/babble/src/hashgraph"
+	"github.com/andrecronje/babble/src/net"
+	"github.com/andrecronje/babble/src/peers"
+	dummy "github.com/andrecronje/babble/src/proxy/dummy"
 	"github.com/sirupsen/logrus"
 )
 

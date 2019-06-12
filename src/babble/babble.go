@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/mosaicnetworks/babble/src/crypto/keys"
-	h "github.com/mosaicnetworks/babble/src/hashgraph"
-	"github.com/mosaicnetworks/babble/src/net"
-	"github.com/mosaicnetworks/babble/src/node"
-	"github.com/mosaicnetworks/babble/src/peers"
-	"github.com/mosaicnetworks/babble/src/service"
+	"github.com/andrecronje/babble/src/crypto/keys"
+	h "github.com/andrecronje/babble/src/hashgraph"
+	"github.com/andrecronje/babble/src/net"
+	"github.com/andrecronje/babble/src/node"
+	"github.com/andrecronje/babble/src/peers"
+	"github.com/andrecronje/babble/src/service"
 	"github.com/sirupsen/logrus"
 )
 

@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mosaicnetworks/babble/src/common"
-	bcrypto "github.com/mosaicnetworks/babble/src/crypto"
-	"github.com/mosaicnetworks/babble/src/hashgraph"
-	"github.com/mosaicnetworks/babble/src/peers"
+	"github.com/andrecronje/babble/src/common"
+	bcrypto "github.com/andrecronje/babble/src/crypto"
+	"github.com/andrecronje/babble/src/hashgraph"
+	"github.com/andrecronje/babble/src/peers"
 )
 
 func TestInmemDummyAppSide(t *testing.T) {

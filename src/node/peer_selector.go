@@ -3,7 +3,7 @@ package node
 import (
 	"math/rand"
 
-	"github.com/mosaicnetworks/babble/src/peers"
+	"github.com/andrecronje/babble/src/peers"
 )
 
 //PeerSelector defines and interface for Peer Selectors

@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/mosaicnetworks/babble/src/babble"
-	"github.com/mosaicnetworks/babble/src/crypto/keys"
-	"github.com/mosaicnetworks/babble/src/node"
-	"github.com/mosaicnetworks/babble/src/peers"
-	"github.com/mosaicnetworks/babble/src/proxy"
-	"github.com/mosaicnetworks/babble/src/proxy/inmem"
+	"github.com/andrecronje/babble/src/babble"
+	"github.com/andrecronje/babble/src/crypto/keys"
+	"github.com/andrecronje/babble/src/node"
+	"github.com/andrecronje/babble/src/peers"
+	"github.com/andrecronje/babble/src/proxy"
+	"github.com/andrecronje/babble/src/proxy/inmem"
 	"github.com/sirupsen/logrus"
 )
 

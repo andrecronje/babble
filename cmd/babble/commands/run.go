@@ -1,9 +1,9 @@
 package commands
 
 import (
-	"github.com/mosaicnetworks/babble/src/babble"
-	"github.com/mosaicnetworks/babble/src/proxy/dummy"
-	aproxy "github.com/mosaicnetworks/babble/src/proxy/socket/app"
+	"github.com/andrecronje/babble/src/babble"
+	"github.com/andrecronje/babble/src/proxy/dummy"
+	aproxy "github.com/andrecronje/babble/src/proxy/socket/app"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"

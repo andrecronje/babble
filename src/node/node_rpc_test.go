@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mosaicnetworks/babble/src/common"
-	hg "github.com/mosaicnetworks/babble/src/hashgraph"
-	"github.com/mosaicnetworks/babble/src/net"
-	dummy "github.com/mosaicnetworks/babble/src/proxy/dummy"
+	"github.com/andrecronje/babble/src/common"
+	hg "github.com/andrecronje/babble/src/hashgraph"
+	"github.com/andrecronje/babble/src/net"
+	dummy "github.com/andrecronje/babble/src/proxy/dummy"
 )
 
 func TestProcessSync(t *testing.T) {

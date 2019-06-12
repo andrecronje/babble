@@ -27,10 +27,10 @@ process as your handler):
   package main
   
   import (
-  	"github.com/mosaicnetworks/babble/src/babble"
-  	"github.com/mosaicnetworks/babble/src/crypto"
-  	"github.com/mosaicnetworks/babble/src/hashgraph"
-  	"github.com/mosaicnetworks/babble/src/proxy/inmem"
+  	"github.com/andrecronje/babble/src/babble"
+  	"github.com/andrecronje/babble/src/crypto"
+  	"github.com/andrecronje/babble/src/hashgraph"
+  	"github.com/andrecronje/babble/src/proxy/inmem"
   )
   
   // Implements proxy.ProxyHandler interface
@@ -126,9 +126,9 @@ Assuming there is a Babble node running with its proxy listening on
   import (
   	"time"
   
-  	"github.com/mosaicnetworks/babble/src/crypto"
-  	"github.com/mosaicnetworks/babble/src/hashgraph"
-  	"github.com/mosaicnetworks/babble/src/proxy/socket/babble"
+  	"github.com/andrecronje/babble/src/crypto"
+  	"github.com/andrecronje/babble/src/hashgraph"
+  	"github.com/andrecronje/babble/src/proxy/socket/babble"
   )
   
   // Implements proxy.ProxyHandler interface

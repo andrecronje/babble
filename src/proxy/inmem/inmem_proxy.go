@@ -1,8 +1,8 @@
 package inmem
 
 import (
-	hg "github.com/mosaicnetworks/babble/src/hashgraph"
-	"github.com/mosaicnetworks/babble/src/proxy"
+	hg "github.com/andrecronje/babble/src/hashgraph"
+	"github.com/andrecronje/babble/src/proxy"
 	"github.com/sirupsen/logrus"
 )
 

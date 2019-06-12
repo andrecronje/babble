@@ -1,7 +1,7 @@
 package node
 
 import (
-	hg "github.com/mosaicnetworks/babble/src/hashgraph"
+	hg "github.com/andrecronje/babble/src/hashgraph"
 )
 
 //Infos is a struct providing Hashgraph information

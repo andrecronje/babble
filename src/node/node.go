@@ -9,10 +9,10 @@ import (
 	"syscall"
 	"time"
 
-	hg "github.com/mosaicnetworks/babble/src/hashgraph"
-	"github.com/mosaicnetworks/babble/src/net"
-	"github.com/mosaicnetworks/babble/src/peers"
-	"github.com/mosaicnetworks/babble/src/proxy"
+	hg "github.com/andrecronje/babble/src/hashgraph"
+	"github.com/andrecronje/babble/src/net"
+	"github.com/andrecronje/babble/src/peers"
+	"github.com/andrecronje/babble/src/proxy"
 	"github.com/sirupsen/logrus"
 )
 

@@ -3,7 +3,7 @@ package dummy
 import (
 	"time"
 
-	socket "github.com/mosaicnetworks/babble/src/proxy/socket/babble"
+	socket "github.com/andrecronje/babble/src/proxy/socket/babble"
 	"github.com/sirupsen/logrus"
 )
 

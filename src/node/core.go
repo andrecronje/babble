@@ -7,10 +7,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/mosaicnetworks/babble/src/common"
-	hg "github.com/mosaicnetworks/babble/src/hashgraph"
-	"github.com/mosaicnetworks/babble/src/peers"
-	"github.com/mosaicnetworks/babble/src/proxy"
+	"github.com/andrecronje/babble/src/common"
+	hg "github.com/andrecronje/babble/src/hashgraph"
+	"github.com/andrecronje/babble/src/peers"
+	"github.com/andrecronje/babble/src/proxy"
 	"github.com/sirupsen/logrus"
 )
 
@@ -457,7 +457,7 @@ func (c *Core) Commit(block *hg.Block) error {
 		"block":                         block.Index(),
 		"state_hash":                    fmt.Sprintf("%X", commitResponse.StateHash),
 		"internal_transaction_receipts": commitResponse.InternalTransactionReceipts,
-		"err": err,
+		"err":                           err,
 	}).Debug("CommitBlock Response")
 
 	//XXX Handle errors
